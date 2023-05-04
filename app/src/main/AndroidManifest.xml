@@ -2,6 +2,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <activity android:name=".SplashScreen">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"></action>
+
+            <category android:name="android.intent.category.LAUNCHER"></category>
+        </intent-filter>
+    </activity>
+
+
+
+    <activity android:name=".MainActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"></action>
+
+            <category android:name="android.intent.category.DEFAULT"></category>
+        </intent-filter></activity>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"

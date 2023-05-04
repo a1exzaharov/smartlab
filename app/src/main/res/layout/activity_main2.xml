@@ -8,52 +8,58 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="171dp"
-        android:layout_height="166dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.933"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="Enter How Much Cookies"
+
         app:srcCompat="@drawable/shape" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="Enter How Much Cookies You Want"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gg" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="164dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/Пропустить" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Group1"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="402dp" />
+        app:srcCompat="@drawable/r" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="152dp"
-        android:layout_height="92dp"
-        app:srcCompat="@drawable/Illustration"
-        tools:layout_editor_absoluteX="129dp"
-        tools:layout_editor_absoluteY="478dp" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/s" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/Анализы"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="276dp" />
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/rtrtrtrt" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/экспр" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
